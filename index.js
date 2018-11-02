@@ -22,10 +22,10 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 // function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 //   object[key] = value
-// 
+//
 //   return object
 // }
-// 
+//
 
 
 /////////
@@ -33,23 +33,23 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   const newObj = Object.assign({}, object)
-  delete.object[key]
+  delete newObj[key]
 
-  return object
+  return newObj
 }
 
 
 
 // function deleteFromObjectByKey(object, key) {
 //   const newObj = Object.assign({}, object)
-// 
+//
 //   delete newObj[key]
-// 
+//
 //   return newObj
 // }
-// 
+//
 // function destructivelyDeleteFromObjectByKey(object, key) {
 //   delete object[key]
-// 
+//
 //   return object
 // }
